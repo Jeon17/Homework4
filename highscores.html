@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>High Scores</title>
+</head>
+<body>
+  <div class="clearfix">
+    <div class="card">
+      <h2>High Score</h2>
+      <form method="POST">
+        <div class="input-group">
+          <label for="initials">Initials</label>
+          <input type="text" name="initials" id="initials" placeholder="Gus"/>
+          </div>
+          <div class="input-group">
+            <label for="score">Score</label>
+            <input type="text" id="score" placeholder="4"/>
+          </div>
+          <div id="prompt"></div>
+          <button id="click">Click</button>
+      </form>
+    </div>
+  </div>
+    
+    <div class="card">
+      <h2>HighScores</h2>
+      <p><strong>Initials:</strong><span id="user-initials"></span></p>
+      <p><strong>Score:</strong><span id="user-score"></span></p>
+    </div>
+      </div>
+    <script src="./script.js"></script>
+    
+  </body>
+</html>
